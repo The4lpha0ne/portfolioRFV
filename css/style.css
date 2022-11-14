@@ -425,6 +425,36 @@ h1, h2, h3 {
     background-color: var(--primario);
 }
 
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 2rem auto;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    padding: 0.5%;
+    color: var(--NeonGreen);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--NeonGreen);
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 2.5px 2.5px blueviolet;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
 .contacto1 {
     text-align: center;
     margin: 0% 0% 0% 0%;
@@ -544,29 +574,6 @@ label {
 .p1, .p2, .p3 {
     text-align: justify;
     text-justify: inter-word;
-}
-
-footer {
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto 2rem auto;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: large;
-    padding: 0.5%;
-    color: var(--NeonGreen);
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--NeonGreen);
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: aqua;
-    text-shadow: 2.5px 2.5px blueviolet;
 }
 
 /****************************************************************************************************/
