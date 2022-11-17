@@ -288,7 +288,6 @@ h1, h2, h3 {
 .comb_icon {
     display: flex;
     justify-content: center;
-    
 }
 
 .email_icon {
@@ -297,6 +296,27 @@ h1, h2, h3 {
 
 .linkedin_icon {
     margin-left: 1rem;
+}
+
+.location {
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    /* margin: 0 auto 2rem auto;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large; */
+}
+
+.location a {
+    text-decoration: none;
+    color: white;
+}
+
+.location a:hover {
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 2.5px 2.5px blueviolet;
 }
 
 /* .email_address {
@@ -317,17 +337,6 @@ footer {
     font-size: large;
     padding: 0.5%;
     color: var(--NeonGreen);
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--NeonGreen);
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: aqua;
-    text-shadow: 2.5px 2.5px blueviolet;
 }
 
 /****************************************************************************************************/
