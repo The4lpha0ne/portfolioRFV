@@ -326,12 +326,34 @@ h1, h2, h3 {
 @media only screen and (max-width: 768px) {
     .my_pic {
         width: 50%;
-        min-width: 15rem;
+        min-width: 20rem;
         height: auto;
         border: 1rem solid white;
         border-radius: 3rem;
         margin: 0 auto;
     }   
+}
+
+@media only screen and (max-width: 708px) {
+    .my_pic {
+        width: 50%;
+        min-width: 15rem;
+        height: auto;
+        border: 1rem solid white;
+        border-radius: 3rem;
+        margin: 0 auto;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .my_pic {
+        width: 50%;
+        min-width: 20rem;
+        height: auto;
+        border: 1rem solid white;
+        border-radius: 3rem;
+        margin: 0 auto;
+    } 
 }
 
 .about_me1 {
