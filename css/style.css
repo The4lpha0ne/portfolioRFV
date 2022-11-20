@@ -291,6 +291,14 @@ h1, h2, h3 {
     padding: 2rem 2rem 2rem 2rem;
 }
 
+@media only screen and (max-width: 708px) {
+    .sombra {
+        border: 1rem solid var(--NeonGreen);
+        border-radius: 3rem;
+        padding: 2rem 2rem 0rem 2rem;
+    }    
+}
+
 /****************************************************************************************************/
 /****************************************************************************************************/
 /****************************************************************************************************/
@@ -665,11 +673,39 @@ footer p {
     }   
 }
 
+@media only screen and (max-width: 835px) {
+    .p_servicios {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 7rem;
+    }   
+}
+
 @media only screen and (max-width: 768px) {
     .p_servicios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1rem;
+        row-gap: 11rem;
+    }     
+}
+
+@media only screen and (max-width: 708px) {
+    .p_servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 0.2rem;
+    }     
+}
+
+@media only screen and (max-width: 665px) {
+    .p_servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 0.2rem;
     }     
 }
 
@@ -678,51 +714,213 @@ footer p {
         display: grid;
         grid-template-columns: 1fr;
         column-gap: 1rem;
+        row-gap: 0.2rem;
     }     
+}
+
+@media only screen and (max-width: 486px) {
+    .p_servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 0.2rem;
+    }  
 }
 
 .p_column1, .p_column2, .p_column3 {
     display: grid;
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
 }
 
 .p_main1, .p_main2, .p_main3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center; */
+    justify-content: space-evenly;
     margin: 0 auto;
-}
-
-.p_main1, .p_main3 {
     height: auto;
     width: 100%;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
-}
-
-.p_main2 {
-    height: auto;
-    width: 100%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
 }
 
 .p_part1, .p_part2, .p_part3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: baseline;
+    margin: 1.5rem auto;
     padding: 0rem 1.5rem 0rem 1.5rem;
+    height: 14rem;
+}
+
+@media only screen and (max-width: 1610px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 14rem;
+    }  
+}
+
+@media only screen and (max-width: 1485px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 14rem;
+    }   
+}
+
+@media only screen and (max-width: 1400px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 16rem;
+    }   
+}
+
+@media only screen and (max-width: 1325px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 18rem;
+    }  
+}
+
+@media only screen and (max-width: 1210px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 22rem;
+    }   
+}
+
+@media only screen and (max-width: 1140px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 22rem;
+    }  
+}
+
+@media only screen and (max-width: 1100px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 29rem;
+    }   
+}
+
+@media only screen and (max-width: 900px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 29rem;
+    } 
+}
+
+@media only screen and (max-width: 835px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 16rem;
+    }  
+}
+
+@media only screen and (max-width: 768px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 16rem;
+    } 
+}
+
+@media only screen and (max-width: 708px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 23rem;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 486px) {
+    .p_part1, .p_part2, .p_part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        margin: 1.5rem auto;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        height: 16rem;
+    }
 }
 
 .p_part1 .p_p1, 
@@ -731,10 +929,100 @@ footer p {
     color: white;
 }
 
+@media only screen and (max-width: 708px) {
+    .p_part1, .p_part2, .p_part3 {
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .p_part1, .p_part2, .p_part3 {
+        height: fit-content;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .p_part1, .p_part2, .p_part3 {
+        height: fit-content;
+    }     
+}
+
+@media only screen and (max-width: 486px) {
+    .p_part1, .p_part2, .p_part3 {
+        height: fit-content;
+    }
+}
+
 .p_p1, .p_p2, .p_p3 {
     text-align: justify;
     text-justify: inter-word;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.the_pizzeria1, .the_pizzeria2 {
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 1px 1px var(--BlueViolet);
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;    
+}
+
+.the_pizzeria2:hover {
+    font-size: larger;
+    text-decoration: none;
+    color: red;
+    text-shadow: 1px 1px aqua;
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;     
+}
+
+.the_vidaplus1, .the_vidaplus2 {
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 1px 1px var(--BlueViolet);
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;    
+}
+
+.the_vidaplus2:hover {
+    font-size: larger;
+    text-decoration: none;
+    color: red;
+    text-shadow: 1px 1px aqua;
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;     
+}
+
+.chess_game1, .chess_game2 {
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 1px 1px var(--BlueViolet);
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;    
+}
+
+.chess_game2:hover {
+    font-size: larger;
+    text-decoration: none;
+    color: red;
+    text-shadow: 1px 1px aqua;
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;     
 }
 
 .p_p1 span, .p_p2 span, .p_p3 span {
@@ -778,6 +1066,44 @@ footer p {
     color: aqua;
     text-shadow: 1px 2px var(--BlueViolet);
 }
+
+@media only screen and (max-width: 708px) {
+    .p_service1, 
+    .p_service2, 
+    .p_service3 {
+        margin-bottom: 1rem;
+        color: aqua;
+        text-shadow: 0px 0px var(--BlueViolet);
+        text-decoration: underline;
+    }    
+}
+
+/* @media only screen and (max-width: 665px) {
+    .p_servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 6rem;
+    }     
+}
+
+@media only screen and (max-width: 600px) {
+    .p_servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 6rem;
+    }     
+}
+
+@media only screen and (max-width: 486px) {
+    .p_servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 7rem;
+    }  
+} */
 
 /****************************************************************************************************/
 /****************************************************************************************************/
