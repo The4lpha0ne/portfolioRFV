@@ -545,6 +545,12 @@ footer p {
     text-justify: inter-word;
 }
 
+.s_p1 span, .s_p2 span, .s_p3 span {
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 1px aqua;
+}
+
 .s_iconos {
     height: 15rem;
     width: 15rem;
@@ -693,6 +699,12 @@ footer p {
 .p_p1, .p_p2, .p_p3 {
     text-align: justify;
     text-justify: inter-word;
+}
+
+.p_p1 span, .p_p2 span, .p_p3 span {
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 1px aqua;
 }
 
 .p_iconos {
