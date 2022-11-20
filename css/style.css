@@ -577,6 +577,7 @@ footer p {
 .s_p1, .s_p2, .s_p3 {
     text-align: justify;
     text-justify: inter-word;
+    font-size: 16px;
 }
 
 .s_p1 span, .s_p2 span, .s_p3 span {
@@ -733,6 +734,7 @@ footer p {
 .p_p1, .p_p2, .p_p3 {
     text-align: justify;
     text-justify: inter-word;
+    font-size: 16px;
 }
 
 .p_p1 span, .p_p2 span, .p_p3 span {
