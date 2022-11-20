@@ -60,7 +60,7 @@ html {
 
 /*1rem = 10px*/
 body {
-    font-size: 1.6rem;
+    font-size: 16px;
     font-family: 'Sono', sans-serif;
     text-align: center;
     background-color: black;
@@ -369,6 +369,7 @@ h1, h2, h3 {
 .about_me2 {
     color: white;
     margin-bottom: 1.5rem;
+    text-decoration: underline;
 }
 
 .description1 {
@@ -376,7 +377,7 @@ h1, h2, h3 {
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 1.5rem;
-    font-size: 2.6rem;
+    font-size: 26px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -385,7 +386,7 @@ h1, h2, h3 {
         text-align: justify;
         text-justify: inter-word;
         margin-bottom: 1.5rem;
-        font-size: 1.6rem;
+        font-size: 16px;
     }
 }
 
