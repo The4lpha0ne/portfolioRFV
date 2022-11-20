@@ -512,7 +512,7 @@ footer p {
 @media only screen and (max-width: 900px) {
     .s_servicios {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 1rem;
     }   
 }
@@ -525,7 +525,7 @@ footer p {
     }     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 665px) {
     .s_servicios {
         display: grid;
         grid-template-columns: 1fr;
@@ -535,7 +535,21 @@ footer p {
 
 .s_column1, .s_column2, .s_column3 {
     display: grid;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .s_column1, .s_column2 {
+        display: grid;
+        margin-bottom: 2.5rem;
+    }  
+}
+
+@media only screen and (max-width: 708px) {
+    .s_column1, .s_column2, .s_column3 {
+        display: grid;
+        margin-bottom: 2.5rem;
+    }  
 }
 
 .s_main1, .s_main2, .s_main3 {
@@ -584,9 +598,7 @@ footer p {
 }
 
 .s_p1, .s_p2, .s_p3 {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .s_p1 span, .s_p2 span, .s_p3 span {
@@ -622,6 +634,11 @@ footer p {
 .the_python {
     width: 10rem;
     height: 10rem;
+}
+
+.four_stars, .three_stars {
+    width: 15rem;
+    height: auto;
 }
 
 .s_service1, 
