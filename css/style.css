@@ -377,7 +377,8 @@ h1, h2, h3 {
 .about_me2 {
     color: white;
     margin-bottom: 1.5rem;
-    text-decoration: underline;
+    text-decoration: underline overline;
+    font-size: 40px;
 }
 
 .description1 {
