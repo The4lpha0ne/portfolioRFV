@@ -58,7 +58,8 @@ html {
     font-size: 62.5%;
 }
 
-body { /*1rem = 10px*/
+/*1rem = 10px*/
+body {
     font-size: 1.6rem;
     font-family: 'Sono', sans-serif;
     text-align: center;
@@ -314,8 +315,6 @@ h1, h2, h3 {
 }
 
 .my_pic {
-    /* width: 15rem;
-    height: 20rem; */
     width: 50%;
     min-width: 15rem;
     height: auto;
@@ -419,7 +418,6 @@ h1, h2, h3 {
 footer {
     bottom: 0;
     width: 100%;
-    /* text-align: center; */
     font-weight: bolder;
     font-style: italic;
     font-size: large;
@@ -429,8 +427,6 @@ footer {
 }
 
 footer p {
-    /* text-align: justify; */
-    /* text-justify: inter-word; */
     text-align: center;
     margin: 2rem 8% 2rem 8%;
     padding: 0 auto;
@@ -489,17 +485,9 @@ footer p {
 @media only screen and (max-width: 600px) {
     .s_servicios {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 1rem;
-    }     
-}
-
-@media only screen and (max-width: 480px) {
-    .s_servicios {
-        display: grid;
         grid-template-columns: 1fr;
         column-gap: 1rem;
-    }   
+    }     
 }
 
 .s_column1, .s_column2, .s_column3 {
@@ -568,7 +556,22 @@ footer p {
 }
 
 .s_iconos {
-    background-color: var(--primario);
+    background-color: var(--NeonGreen);
+}
+
+.the_css {
+    width: 10rem;
+    height: 10rem;
+}
+
+.the_html {
+    width: 10rem;
+    height: 10rem;
+}
+
+.the_python {
+    width: 10rem;
+    height: 10rem;
 }
 
 .s_service1, 
@@ -632,17 +635,9 @@ footer p {
 @media only screen and (max-width: 600px) {
     .p_servicios {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         column-gap: 1rem;
     }     
-}
-
-@media only screen and (max-width: 480px) {
-    .p_servicios {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        column-gap: 1rem;
-    }   
 }
 
 .p_column1, .p_column2, .p_column3 {
@@ -703,7 +698,7 @@ footer p {
 .p_iconos {
     height: 15rem;
     width: 15rem;
-    border-radius: 50%;
+    border-radius: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -711,7 +706,25 @@ footer p {
 }
 
 .p_iconos {
-    background-color: var(--primario);
+    background-color: var(--NeonGreen);
+}
+
+.vidaplus {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 15%;    
+}
+
+.pizzeria {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 15%;    
+}
+
+.chess {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 15%;    
 }
 
 .p_service1, 
@@ -797,15 +810,18 @@ textarea:focus {
 
 /********************************************************/
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
     color: gray;
 }
   
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder {
     color: gray;
 }
-  
-::-ms-input-placeholder { /* Microsoft Edge */
+
+/* Microsoft Edge */
+::-ms-input-placeholder {
     color: gray;
 }
 
