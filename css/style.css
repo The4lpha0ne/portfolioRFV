@@ -1303,6 +1303,15 @@ footer p {
     border-radius: 1rem;
 }
 
+@media only screen and (max-width: 708px) {
+    .formulario {
+        background-color: var(--DeepBlue);
+        padding: 2rem;
+        border-radius: 1rem;
+        margin: 1.5rem auto 2rem auto;
+    }  
+}
+
 .formulario fieldset {
     border: none;
 }
