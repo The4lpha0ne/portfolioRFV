@@ -1176,6 +1176,45 @@ footer p {
     word-wrap: break-word;     
 }
 
+@media only screen and (max-width: 1325px) {
+    .the_pizzeria2:hover {
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }  
+}
+
+@media only screen and (max-width: 768px) {
+    .the_pizzeria2:hover {
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }    
+}
+
+@media only screen and (max-width: 708px) {
+    .the_pizzeria2:hover {
+        font-size: larger;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }  
+}
+
 .the_vidaplus1, .the_vidaplus2 {
     font-size: 20px;
     text-decoration: none;
@@ -1198,6 +1237,45 @@ footer p {
     word-wrap: break-word;     
 }
 
+@media only screen and (max-width: 1325px) {
+    .the_vidaplus2:hover {
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .the_vidaplus2:hover {
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    } 
+}
+
+@media only screen and (max-width: 708px) {
+    .the_vidaplus2:hover {
+        font-size: larger;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }
+}
+
 .chess_game1, .chess_game2 {
     font-size: 20px;
     text-decoration: none;
@@ -1218,6 +1296,45 @@ footer p {
     text-align: justify;
     text-justify: inter-word;
     word-wrap: break-word;     
+}
+
+@media only screen and (max-width: 1325px) {
+    .chess_game2:hover {
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .chess_game2:hover {
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }
+}
+
+@media only screen and (max-width: 708px) {
+    .chess_game2:hover {
+        font-size: larger;
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px aqua;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+        word-wrap: break-word;     
+    }
 }
 
 .p_p1 span, .p_p2 span, .p_p3 span {
