@@ -7,11 +7,11 @@
 ---
 **2. Contenido del Portfolio**
 * **index.html**
-* 
+
 * **skills.html**
 
 * **projects.html**
-* 
+
 * **contact_me.html**
 ---
 **3. Implementación de JavaScript**
