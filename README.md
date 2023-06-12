@@ -27,5 +27,8 @@
 1. Formulario para ingresar nombre, teléfono, correo, mensaje y enviar
 ---
 **3. Implementación de JavaScript**
-*
+1. Enriquecimiento de Interacción con el Usuario a Través de Efectos Dinámicos y Tooltips Usando JavaScript
+* En la página web Portfolio, se implementó JavaScript para enriquecer la interacción del usuario mediante efectos dinámicos y tooltips. Cuando el usuario mueve el cursor sobre el encabezado "About Me", el texto de la descripción cambia de color a rojo, el texto del encabezado cambia a un tono de azul y el cursor se convierte en un puntero. Además, aparece un tooltip con el texto "Implementación de JavaScript" como una indicación adicional para el usuario.
+
+* Estas implementaciones se realizaron mediante el uso de JavaScript para añadir escuchadores de eventos a elementos específicos en la página. Se seleccionaron el encabezado y el párrafo mediante sus clases CSS, y se les asignaron funciones que modifican sus estilos y atributos en respuesta a eventos de 'mouseover' y 'mouseout'. Esto significa que los cambios se aplican cuando el cursor del ratón pasa por encima del encabezado y se revierten cuando sale de él, lo que resulta en una interacción dinámica y atractiva para el usuario.
 ---
