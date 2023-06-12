@@ -7,8 +7,8 @@
 ---
 **2. Contenido del Portfolio**
 * **index.html**
--frfrf
--frfrfr
+1. frfrf
+2. frfrfr
 * **skills.html**
 
 * **projects.html**
